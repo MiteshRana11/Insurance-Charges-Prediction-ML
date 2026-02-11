@@ -1,43 +1,46 @@
-# Insurance-Charges-Prediction---ML
-# Insurance Charges Prediction App 💰📊
+<img width="1220" height="702" alt="image" src="https://github.com/user-attachments/assets/a8964d72-5fe0-46b5-93e7-285195aa0cda" /># Insurance Charges Prediction App 💰📊 (Streamlit + Machine Learning)
 
-This is a simple Machine Learning project built during my 45-day AI/ML internship.  
-The application predicts **medical insurance charges** based on user input like age, BMI, smoker status, region, etc.
-
-The project is deployed locally using **Streamlit**, providing an interactive web interface.
+This project is a simple Machine Learning application built during my **45-day AI/ML internship**.  
+It predicts **medical insurance charges** based on user inputs such as age, sex, BMI, children, smoker status, and region.  
+The model is trained using **Linear Regression** and the interactive web application is built using **Streamlit**.
 
 ---
 
 ## 🚀 Features
-- Predicts insurance charges instantly
-- User-friendly Streamlit interface
-- Takes inputs:
+- Predict insurance charges instantly using a trained ML model
+- Clean and interactive Streamlit UI
+- User input fields:
   - Age
   - Sex
   - BMI
   - Children
   - Smoker
   - Region
-- Shows optional graph: **Actual vs Predicted Charges**
+- Optional visualization:
+  - Actual vs Predicted Charges graph
 
 ---
 
 ## 🧠 Machine Learning Model
 - Algorithm: **Linear Regression**
 - Preprocessing:
-  - Standard Scaling for numerical features
-  - OneHotEncoding for categorical features
-- Train-Test Split used for evaluation
+  - StandardScaler for numerical features
+  - OneHotEncoder for categorical features
+- Dataset: `insurance.csv`
+- Train-Test Split for model evaluation
 
 ---
 
 ## 🛠️ Technologies Used
 - Python
-- Pandas, NumPy
+- Streamlit
+- Pandas
+- NumPy
 - Scikit-learn
 - Matplotlib
-- Streamlit
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Files Structure (GitHub)
+All project files are inside the **Mitesh** folder:
+
